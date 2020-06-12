@@ -1,4 +1,4 @@
-from practice import start_turning_from_last
+from DrawingBook import start_turning_from_last
 import pytest
 
 

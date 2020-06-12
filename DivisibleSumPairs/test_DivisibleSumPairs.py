@@ -1,4 +1,4 @@
-from practice import divisible_sum_pairs
+from DivisibleSumPairs import divisible_sum_pairs
 import pytest
 
 
