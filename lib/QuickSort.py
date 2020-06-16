@@ -1,3 +1,10 @@
+# TODO: How to import QuickSort
+# import os
+# import sys
+# sys.path.append(os.path.dirname(os.path.realpath('..'))+'/lib')
+# import QuickSort
+
+
 def sort_low_to_high(arr):
     quick_sort(arr, 0, len(arr)-1)
     print(arr)
@@ -5,7 +12,6 @@ def sort_low_to_high(arr):
 
 
 def quick_sort(arr, left, right):
-    print(arr)
     if left < right:
         center = partition(arr, left, right)
 
@@ -25,5 +31,4 @@ def partition(arr, left, right):
         if left != right:
             arr[left], arr[right] = arr[right], arr[left]
             center = left if center == right else (right if center == left else center)
-
     return center
