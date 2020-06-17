@@ -1,3 +1,8 @@
+#
+# Rank: EASY
+# Score: 10/10
+# HackerRank Link: https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
+#
 import math
 
 
