@@ -3,7 +3,6 @@
 # import sys
 # sys.path.append(os.path.dirname(os.path.realpath('..'))+'/lib')
 # import QuickSort
-import math
 
 
 def sort_low_to_high(arr):
@@ -21,8 +20,7 @@ def quick_sort(arr, left, right):
 
 
 def partition(arr, left, right):
-    center = math.floor((left + right) / 2)  # run git
-    # center = (left + right)/2  # run local
+    center = int((left + right) / 2)
 
     while left < right:
         while arr[left] < arr[center]:
