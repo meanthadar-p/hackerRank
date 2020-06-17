@@ -19,3 +19,9 @@ test_practice.py .                                                              
 please aware
 1. Verify that all files with test cases start with 'test_' word.
 2. Verify that all test cases names also start with 'test_' word.
+
+
+### Noted
+```
+[WARN] couldn't commit pytest_cache folder or init.py files, it make unit tests failure when run with git actions.
+```
