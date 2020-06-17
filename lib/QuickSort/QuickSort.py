@@ -21,7 +21,8 @@ def quick_sort(arr, left, right):
 
 
 def partition(arr, left, right):
-    center = math.floor((left + right)/2)
+    center = math.floor((left + right) / 2)  # run git
+    # center = (left + right)/2  # run local
 
     while left < right:
         while arr[left] < arr[center]:
