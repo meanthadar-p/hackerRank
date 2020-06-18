@@ -1,3 +1,10 @@
+#
+# Rank: EASY
+# Score: 15/15
+# HackerRank Link: https://www.hackerrank.com/challenges/counting-valleys/problem
+#
+
+
 def counting_valleys(steps):
     print(steps)
     previous_level = 0
