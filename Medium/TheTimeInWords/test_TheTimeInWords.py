@@ -4,8 +4,8 @@ from TheTimeInWords import the_time_in_words
 
 @pytest.mark.parametrize("h, m, expected",
                          [
-                             (5, 00, "five o' clock"),
-                             (5, 01, "one minute past five"),
+                             (5, 0, "five o' clock"),
+                             (5, 1, "one minute past five"),
                              (5, 10, "ten minutes past five"),
                              (5, 15, "quarter past five"),
                              (5, 28, "twenty eight minutes past five"),
