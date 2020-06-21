@@ -1,19 +1,28 @@
 ![Unit tests](https://github.com/meanthadar-p/hackerRank/workflows/Unit%20tests/badge.svg)
 # HackerRank
+Amount
+```
+EASY: 6
+MEDIUM: 2
+```
+
 
 # Unit Tests
 using pytest library https://docs.pytest.org/en/stable/
 
 ``` 
 $ pytest
-=========================================== test session starts ===========================================
-platform darwin -- Python 2.7.16, pytest-4.6.11, py-1.8.1, pluggy-0.13.1
-rootdir: /Users/mpromsutthip/Documents/MTDGitHub/hackerRank/DivisibleSumPairs
-collected 1 item                                                                                                                                                         
+============================= test session starts ==============================
+platform linux -- Python 3.8.3, pytest-5.4.3, py-1.8.2, pluggy-0.13.1
+rootdir: /home/runner/work/hacker-rank-practice/hacker-rank-practice
+collected 33 items
 
-test_practice.py .                                                                                                                                                 [100%]
+Easy/CatsAndaMouse/test_CatsAndaMouse.py ...                             [  9%]
+Easy/CountingValleys/test_CountingValleys.py ..                          [ 15%]
+...
+lib/QuickSort/test_QuickSort.py ..                                       [100%]
 
-=========================================== 1 passed in 0.03 seconds ===========================================
+============================== 33 passed in 0.12s ==============================
 ```
 
 please aware
